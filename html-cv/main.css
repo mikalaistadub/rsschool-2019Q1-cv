@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper-header{
+    max-width: 1024px;
+    height: 300px;
+    margin: 50px auto;
+    background-color: #F8F8F8;
+
+    display: flex;
+}
+
+.foto-author{
+    overflow: hidden;
+    height: 300px;
+    width: 350px;
+    border-right: black 5px solid;
+    padding-right: 50px;
+}
+
+.foto{
+    height: 400px;
+    width: 290px;
+    object-fit: cover;
+}
+
+.about-author{
+    padding: 0 0 0 30px;
+}
+
+h1{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+h3{
+    padding: 20px 0 0 0;
+}
+
+.about-author p{
+    padding: 60px 0 0 0;
+    font-size: 20px;
+}
+
+.skills{
+    margin: 0 auto;
+    max-width: 1024px;
+    background-color: #DCDCDC;
+    padding: 20px 20px;
+    text-align: center;
+    letter-spacing: 3px;
+    box-sizing: border-box;
+}
+
+
+/* MAIN */
+
+.main-container{
+    margin: 0 auto;
+    max-width: 1024px; 
+    background-color: #F8F8F8;
+}
+
+h4{
+    text-transform: uppercase;
+    display: inline-block;
+    border-bottom: 3px black solid;
+    padding: 10px 0 5px 5px;
+    margin: 0 0 20px 0;
+}
+
+.qualities{
+    width: 50%;
+    padding: 5px 0 0 20px;
+}
+
+.qualities ul li{
+   list-style: none;
+   font-style: italic;
+}
