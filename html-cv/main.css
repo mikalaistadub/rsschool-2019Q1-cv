@@ -416,6 +416,6 @@ a{
     backface-visibility: visible !important;
     -webkit-animation-name: flipInY;
     animation-name: flipInY;
-    animation-duration: 8s;
+    animation-duration: 7s;
   }
   
